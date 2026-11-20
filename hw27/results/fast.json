@@ -1,0 +1,78 @@
+{
+ "fw": "1.0.1+5fdd350-09240305",
+ "gen_hz": 1000000,
+ "36MS/s": {
+  "rate_actual": 36000000,
+  "frame_rate": 36000000,
+  "interleaved": false,
+  "triggered": true,
+  "raw_a_len": 4096,
+  "samples": 4080,
+  "low_code": 81.0,
+  "high_code": 216.0,
+  "cycles": 112,
+  "samples_per_cycle_expected": 36.0,
+  "samples_per_cycle_mean": 36.0,
+  "samples_per_cycle_counts": {
+   "36": 112
+  },
+  "measured_hz": 1000000,
+  "plateau_noise_std_codes": 2.2,
+  "even_minus_odd_on_plateau_codes": -0.91,
+  "edge_samples": [
+   83.0,
+   82.0,
+   82.0,
+   84.0,
+   84.0,
+   104.0,
+   162.0,
+   190.0,
+   207.0,
+   214.0,
+   216.0,
+   216.0,
+   216.0,
+   216.0,
+   216.0,
+   216.0
+  ]
+ },
+ "72MS/s": {
+  "rate_actual": 72000000,
+  "frame_rate": 72000000,
+  "interleaved": true,
+  "triggered": true,
+  "raw_a_len": 4096,
+  "samples": 8176,
+  "low_code": 82.0,
+  "high_code": 218.0,
+  "cycles": 112,
+  "samples_per_cycle_expected": 72.0,
+  "samples_per_cycle_mean": 72.0,
+  "samples_per_cycle_counts": {
+   "72": 112
+  },
+  "measured_hz": 1000000,
+  "plateau_noise_std_codes": 3.4,
+  "even_minus_odd_on_plateau_codes": -1.32,
+  "edge_samples": [
+   84.0,
+   83.8,
+   84.0,
+   84.8,
+   104.0,
+   132.8,
+   164.0,
+   179.8,
+   192.0,
+   201.8,
+   209.0,
+   212.8,
+   216.0,
+   215.8,
+   218.0,
+   217.8
+  ]
+ }
+}

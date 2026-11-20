@@ -1,0 +1,59 @@
+{
+ "fw": "1.0.1+5fdd350-09240305",
+ "square_rate": 1000000,
+ "square": {
+  "C": {
+   "low_samples": 8352,
+   "high_samples": 8000,
+   "edges": 32,
+   "edges_a": 32,
+   "edge_offset_vs_a_samples": {
+    "-4": 32
+   },
+   "same_polarity_as_a": true
+  },
+  "D": {
+   "low_samples": 8352,
+   "high_samples": 8000,
+   "edges": 32,
+   "edges_a": 32,
+   "edge_offset_vs_a_samples": {
+    "-4": 32
+   },
+   "same_polarity_as_a": true
+  }
+ },
+ "threshold": {
+  "C": {
+   "transitions": 46,
+   "switches_high_at_code": [
+    149.56521739130434,
+    0.6478114967717974
+   ],
+   "switches_low_at_code": [
+    150.0,
+    0.7801894976054939
+   ],
+   "switches_high_at_volts_uncalibrated": 1.71,
+   "switches_low_at_volts_uncalibrated": 1.72
+  },
+  "D": {
+   "transitions": 44,
+   "switches_high_at_code": [
+    149.54545454545453,
+    0.6555547773570889
+   ],
+   "switches_low_at_code": [
+    149.95454545454547,
+    0.7056443043754556
+   ],
+   "switches_high_at_volts_uncalibrated": 1.71,
+   "switches_low_at_volts_uncalibrated": 1.72
+  }
+ },
+ "a_range_codes_triangle": [
+  85,
+  212
+ ],
+ "note": "edges exactly at a join between stored frames are excluded"
+}

@@ -1,0 +1,46 @@
+{
+ "fw": "1.0.1+5fdd350-09240305",
+ "square_rate": 100000.0,
+ "square": {
+  "C": {
+   "low_samples": 8152,
+   "high_samples": 8200,
+   "edges": 328,
+   "edges_a": 324,
+   "edge_offset_vs_a_samples_nearest_edge": {
+    "-5": 324
+   },
+   "comment": "C shows 4 more edges than A because C leads A by 5 samples, so edges next to a frame boundary fall in different frames; offsets use the nearest C edge to each of the 324 A edges"
+  },
+  "D": {
+   "low_samples": 16352,
+   "high_samples": 0,
+   "edges": 0,
+   "edges_a": 324
+  }
+ },
+ "threshold": {
+  "C": {
+   "transitions": 36,
+   "switches_high_at_code": [
+    149.38888888888889,
+    0.4874980215217846
+   ],
+   "switches_low_at_code": [
+    149.94444444444446,
+    0.4044505494044732
+   ],
+   "switches_high_at_volts_uncalibrated": 1.71,
+   "switches_low_at_volts_uncalibrated": 1.72
+  },
+  "D": {
+   "transitions": 0,
+   "stuck_at": 0
+  }
+ },
+ "a_range_codes_triangle": [
+  85,
+  212
+ ],
+ "note": "edges exactly at a join between stored frames are excluded"
+}

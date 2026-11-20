@@ -1,0 +1,34 @@
+{
+ "test": "roll",
+ "fw": "1.0.1+5fdd350-09240305",
+ "rate_requested": 10000.0,
+ "rate_actual": 10000,
+ "gen_hz": 100.0,
+ "seconds": 15.01,
+ "chunks": 662,
+ "samples": 163066,
+ "samples_per_s": 10864,
+ "index_jumps": 0,
+ "gap_flags": 0,
+ "chunk_sizes": [
+  7,
+  99,
+  106,
+  256
+ ],
+ "first_index": 0,
+ "last_index_end": 163066,
+ "code_min": 128,
+ "code_max": 201,
+ "cycles": 1630,
+ "period_nominal_samples": 100.0,
+ "period_min": 100,
+ "period_max": 101,
+ "period_mean": 100.00061349693252,
+ "period_counts": {
+  "100": 1629,
+  "101": 1
+ },
+ "cycles_off_by_more_than_1_sample": 0,
+ "measured_hz": 99.99938650683124
+}

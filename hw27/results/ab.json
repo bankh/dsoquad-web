@@ -1,0 +1,54 @@
+{
+ "fw": "1.0.1+5fdd350-09240305",
+ "square": {
+  "rate": 100000,
+  "a_codes": [
+   84,
+   214
+  ],
+  "b_codes": [
+   72,
+   86
+  ],
+  "edges_a": 81,
+  "edges_b": 81,
+  "edge_offset_samples_b_minus_a": [
+   0
+  ],
+  "mean_abs_diff_codes": 70.61888454011742
+ },
+ "triangle": {
+  "rate": 100000,
+  "hz": 50,
+  "samples": 32704,
+  "a_codes": [
+   88,
+   210
+  ],
+  "b_codes": [
+   72,
+   84
+  ],
+  "roughness_a": 0.6084031557702893,
+  "roughness_b_as_delivered": 0.4004648033759403,
+  "roughness_b_swap_undone": 0.5382851201761361,
+  "low2bits_hist_a": [
+   11792,
+   6978,
+   11480,
+   2454
+  ],
+  "low2bits_hist_b": [
+   11417,
+   6367,
+   7732,
+   7188
+  ],
+  "a_minus_b_mean": 69.69682607632095,
+  "a_minus_b_std": 32.231893644503,
+  "a_minus_b_std_swap_undone": 32.28857104381774,
+  "distinct_codes_a": 123,
+  "distinct_codes_b": 12,
+  "verdict": "correction looks right (B is smoother as delivered)"
+ }
+}

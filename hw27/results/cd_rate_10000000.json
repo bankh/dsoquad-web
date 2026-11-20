@@ -1,0 +1,46 @@
+{
+ "fw": "1.0.1+5fdd350-09240305",
+ "square_rate": 10000000.0,
+ "square": {
+  "C": {
+   "low_samples": 572,
+   "high_samples": 15780,
+   "edges": 4,
+   "edges_a": 4,
+   "edge_offset_vs_a_samples": {
+    "1": 4
+   },
+   "same_polarity_as_a": true
+  },
+  "D": {
+   "low_samples": 16352,
+   "high_samples": 0,
+   "edges": 0,
+   "edges_a": 4
+  }
+ },
+ "threshold": {
+  "C": {
+   "transitions": 42,
+   "switches_high_at_code": [
+    149.57142857142858,
+    0.49487165930539345
+   ],
+   "switches_low_at_code": [
+    150.23809523809524,
+    0.4259177099999599
+   ],
+   "switches_high_at_volts_uncalibrated": 1.71,
+   "switches_low_at_volts_uncalibrated": 1.72
+  },
+  "D": {
+   "transitions": 0,
+   "stuck_at": 0
+  }
+ },
+ "a_range_codes_triangle": [
+  85,
+  212
+ ],
+ "note": "edges exactly at a join between stored frames are excluded"
+}
